@@ -1,14 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        double a = 30.48*9.2;
-        double b = 160934*1.3;
+        // 변수 선언
+        double a = 9.2;
+	    double b = 1.3;
 
-        System.out.print("9.2ft = ");
-        System.out.printf("%.1f", a);
-        System.out.print("cm");
-        System.out.println("");
-        System.out.print("1.3mi = ");
-        System.out.printf("%.1f", b);
-        System.out.print("cm");
+        // 출력
+        System.out.printf("%.1fft = %.1fcm\n%.1fmi = %.1fcm", a, a*30.48, b, b*160934);
     }
 }
