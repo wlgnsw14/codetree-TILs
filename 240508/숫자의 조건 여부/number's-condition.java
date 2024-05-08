@@ -8,7 +8,7 @@ public class Main {
         if(a >= 113){
             System.out.println(1);
         }else{
-            System.out.println(2);
+            System.out.println(0);
         }
     }
 }
