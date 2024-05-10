@@ -8,13 +8,18 @@ public class Main {
         int c = 0;
         int d = 0;
 
-        System.out.print("0.");
+        System.out.print((a/b)+".");
 
         for(int i = 0; i <= 19; i++){
-            c = (a*10)/b;
-            d = (a*10)%b;
-            System.out.print(c);
-            a = d;
+            if(a/b >= 1){
+                
+            }else{
+                c = (a*10)/b;
+                d = (a*10)%b;
+                System.out.print(c);
+                a = d;
+            }
+            
         }
     }
 }
