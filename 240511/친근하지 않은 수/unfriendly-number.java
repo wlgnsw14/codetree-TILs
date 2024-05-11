@@ -7,11 +7,11 @@ public class Main {
         int cnt = 0;
 
         for(int i = 1; i <= a; i++){
-            if(i%2==0 || i%3==0 || i%5==0){
+            if(i%2==0 || i%3==0 || i%5==0)
+                continue;
                 cnt++;
-            }
         }
-        System.out.print(a-cnt);
+        System.out.print(cnt);
         
     }
 }
