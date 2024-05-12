@@ -6,11 +6,11 @@ public class Main {
         int a = sc.nextInt();
 
         for(int i = 1; i <= a; i++){
-            if(i%2==0 && i%4!=0)
+            if(i % 2 == 0 && i % 4 != 0)
                 continue;
-            if(i%7 < 4)
+            if(i % 7 < 4)
                 continue;
-            if(i/8==0 || i/8==2 || i/8==4 || i/8==6 || i/8==8)
+            if(i / 8 % 2 == 0)
                 continue;
             System.out.print(i+" ");
         }
