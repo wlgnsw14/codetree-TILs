@@ -7,7 +7,7 @@ public class Main {
         int sum = 0;
         while(true){
             int a = sc.nextInt();
-            if(a>=30){
+            if(a < 20 || a > 29){
                 System.out.printf("%.2f",(double) sum/cnt);
                 break;
             }
