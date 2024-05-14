@@ -7,12 +7,18 @@ public class Main {
         int cnt = 0;
         
         while(true){
-            if(a == 2){
-                System.out.print(1+cnt);
+            if(a%2==0){
+                a = a*3 + 1;
+                cnt++;
+            }else{
+                a = a*2 + 2;
+                cnt++;
+            }
+
+            if(a >= 1000){
+                System.out.print(cnt);
                 break;
             }
-            a /= 2;
-            cnt++;
         }
     }
 }
