@@ -31,16 +31,6 @@ public class Main {
         }
         }
 
-        for (int i = 0; i < a / 2 * 2; i++) {
-            for (int j = 0; j < a; j++) {
-                if (j%2==1 && j >= i || i == 0) {
-                    System.out.print("* ");
-                }
-                else {
-                    System.out.print("  ");
-                }
-            }
-            System.out.println();
-        }
+        
     }
 }
