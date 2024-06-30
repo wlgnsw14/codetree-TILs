@@ -14,10 +14,10 @@ public class Main {
             System.out.print(0);
         }else{
             for(int i = a - 1; i > 0; i--){
-            if(arr[i]%2==0){
-                System.out.print(arr[i]+" ");
+                if(arr[i]%2==0){
+                    System.out.print(arr[i]+" ");
+                }
             }
-        }
         }
         
     }
