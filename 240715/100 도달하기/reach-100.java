@@ -8,7 +8,7 @@ public class Main {
         arr[1] = sc.nextInt();
         int cnt = 0;
 
-        for (int i = 2; i < 10; i++) {
+        for (int i = 2; i < 100; i++) {
             arr[i] = arr[i - 1] + arr[i - 2];
             cnt++;
             if(arr[i] >= 100){
