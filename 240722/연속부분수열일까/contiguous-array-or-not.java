@@ -31,7 +31,6 @@ public class Main {
                         break;
                     }
                     if(cnt == b){
-                        cnt += 1;
                         break;
                     }
                 }
