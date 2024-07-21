@@ -9,7 +9,7 @@ public class Main {
         int c = 0;
         int result = 0;
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 30; i++) {
             if(a <= 1){
                 break;
             }else{
