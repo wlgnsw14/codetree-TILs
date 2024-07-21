@@ -7,7 +7,7 @@ public class Main {
         int b = sc.nextInt();
         int[] arr = new int[a];
         int[] brr = new int[b];
-        int cnt = 1;
+        int cnt = 0;
 
         // 원소
         for (int i = 0; i < a; i++) {
@@ -27,10 +27,11 @@ public class Main {
                         cnt++;
                         n++;
                     }else{
-                        cnt = 1;
+                        cnt = 0;
                         break;
                     }
                     if(cnt == b){
+                        cnt += 1;
                         break;
                     }
                 }
