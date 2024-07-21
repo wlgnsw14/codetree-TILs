@@ -3,20 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] arr = new int[9];
+        int[] arr = new int[10];
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = 0;
         int result = 0;
 
-        for (int i = 0; i < 30; i++) {
-            if(a <= 1){
-                break;
-            }else{
-                c = a%b;
+        while(a > 1){
+            int c = a%b;
                 a /= b;
                 arr[c]++;
-            }
         }
 
         for (int i = 0; i < 9; i++) {
