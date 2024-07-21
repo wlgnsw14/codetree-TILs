@@ -14,7 +14,7 @@ public class Main {
                 arr[c]++;
         }
 
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 10; i++) {
             result += arr[i] * arr[i];
         }
         System.out.print(result);
