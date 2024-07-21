@@ -23,6 +23,9 @@ public class Main {
             if(arr[i] == brr[0]){
                 while(true){
                     int n = 1;
+                    if(i+n == a){
+                        break;
+                    }
                     if(arr[i+n] == brr[n]){
                         cnt++;
                         n++;
